@@ -1,0 +1,52 @@
+/* Center the login form on the screen */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* This will ensure the title stays above the form */
+  width: 100vw;
+  height: 100vh; /* Full screen height */
+  background-color: #f0f0f0;
+}
+
+form {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center; /* Center the text */
+}
+
+/* Center the login title */
+h2 {
+  text-align: center;
+  margin-bottom: 20px; /* Adds space between the title and the form */
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left; /* Align labels and inputs on the left */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #4cae4c;
+}
