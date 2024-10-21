@@ -1,9 +1,9 @@
-/* General Navbar styling */
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333; /* Darker background for better contrast */
+  background-color: #333; 
   padding: 10px 20px;
   color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -15,7 +15,7 @@
 }
 
 .logo {
-  height: 50px; /* Adjust logo size */
+  height: 50px;
   margin-right: 10px;
 }
 
@@ -30,15 +30,15 @@
 }
 
 .logout-btn {
-  background-color: #5cb85c; /* Button with a green background */
-  color: white; /* White text */
+  background-color: #5cb85c; 
+  color: white; 
   border: none;
-  padding: 10px 20px; /* Better padding for the button */
+  padding: 10px 20px; 
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px; /* Make the button text more prominent */
+  font-size: 16px; 
 }
 
 .logout-btn:hover {
-  background-color: #4cae4c; /* Darken the button on hover */
+  background-color: #4cae4c; 
 }

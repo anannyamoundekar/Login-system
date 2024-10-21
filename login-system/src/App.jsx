@@ -3,13 +3,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './components/Login';
 import EmployeePage from './components/EmployeePage';
 import LoginFailure from './components/LoginFailure';
-import Navbar from './components/Navbar'; // Import the Navbar
+import Navbar from './components/Navbar'; 
 
 function App() {
   return (
     <Router>
       <div>
-        <Navbar /> {/* Navbar will be displayed on all pages */}
+        <Navbar /> 
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/employee" element={<EmployeePage />} />

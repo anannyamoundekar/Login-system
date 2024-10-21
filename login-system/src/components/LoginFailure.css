@@ -1,14 +1,13 @@
-/* Center the failure message and buttons on the screen */
+
 .failure-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 100vh; /* Full screen height */
+  height: 100vh; 
   background-color: #f0f0f0;
 }
 
-/* Card style for the failure message */
 .failure-card {
   background-color: white;
   padding: 40px;
@@ -20,7 +19,6 @@
   text-align: center;
 }
 
-/* Style the buttons */
 button {
   margin: 10px;
   padding: 10px;
